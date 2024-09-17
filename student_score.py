@@ -43,10 +43,6 @@ def my_grade_and_remark(student_score):
 		remark = 'Invalid'
 	return grade, remark
 
-
-grade = ''
-remark = ''
-
 #button to calculate grade
 if st.button('Submit'):
 	grade, remark = my_grade_and_remark(student_score)
