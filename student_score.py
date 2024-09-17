@@ -9,12 +9,12 @@ col1, col2 = st.columns(2)
 
 #student details in two columns
 with col1:
-	name = st.text_input('Name', placeholder= 'First name and Last name')
+	name = st.text_input('Name', placeholder= 'First Name and Last Name')
 	name_split = name.split(' ')
 	age = st.number_input('Age', step=1)
 
 with col2:
-	gender = st.selectbox('select your gender', ['male', 'female'])
+	gender = st.selectbox('select your gender', ['Male', 'Female'])
 	student_score = int(st.number_input('Enter your average score', step = 1))
 
 
