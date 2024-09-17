@@ -45,18 +45,18 @@ def my_grade_and_remark(student_score):
 
 grade = ''
 remark = ''
-
-#button to calculate grade
-if st.button('Submit'):
-	grade, remark = my_grade_and_remark(student_score)
+#creating submit button
+submit_button = st.button('Click to submit')
 
 #result display
-st.success(f'Welcome, {name_split[0]}')
-st.info(f'Name: {name}')
-st.info(f'Age: {age}')
-st.info(f'Gender: {gender}')
-st.write(f'Grade: {grade}')
-st.write(f'Remark: {remark}')
+if submit_button:
+	grade, remark = my_grade_and_remark(student_score)
+        st.success(f'Welcome, {name_split[0]}')
+        st.info(f'Full Name: {name}')
+        st.info(f'Age: {age}')
+        st.info(f'Gender: {gender}')
+        st.write(f'Grade: {grade}')
+        st.write(f'Remark: {remark}')
 
 # Display balloons for high scores
 if grade == 'A' or grade == 'B':
