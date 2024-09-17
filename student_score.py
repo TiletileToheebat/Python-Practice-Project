@@ -14,7 +14,7 @@ with col1:
 	age = st.number_input('Age', step=1)
 
 with col2:
-	gender = st.selectbox('select your gender', ['Male', 'Female'])
+	gender = st.selectbox('Select your gender', ['Male', 'Female'])
 	student_score = int(st.number_input('Enter your average score', step = 1))
 
 
