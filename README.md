@@ -13,9 +13,10 @@ Welcome to the **Python Refresher Course** repository! 🎉 This course is desig
 6. [File Handling](#6-file-handling)
 7. [Exception Handling](#7-exception-handling)
 8. [Classes and Objects](#8-classes-and-objects)
-9. [Virtual Environments in Python](#9-virtual-environments-in-python)
-10. [Data Analysis with Python Libraries](#10-data-analysis-with-python-libraries)
-11. [Streamlit](#11-streamlit)
+9. [Data Analysis with Python Libraries](#9-data-analysis-with-python-libraries)
+10. [Streamlit](#10-streamlit)
+11. [Virtual Environments in Python](#11-virtual-environments-in-python)
+
 
 ---
 
@@ -81,7 +82,23 @@ Welcome to the **Python Refresher Course** repository! 🎉 This course is desig
 
 ---
 
-## 9. Virtual Environments in Python
+## 9. Data Analysis with Python Libraries
+- **NumPy**: Work with arrays, array operations, and statistical functions.
+- **Pandas**: Manipulate data using `DataFrame` and `Series`.
+- **Matplotlib**: Create line plots, bar charts, and customize visualizations.
+- **Seaborn**: Generate advanced visualizations like scatter plots and heatmaps.
+
+---
+
+## 10. Streamlit
+- **Overview**: Learn to build web apps for data visualization.
+- **Basic Components**: Work with widgets like sliders, checkboxes, and buttons.
+- **Data Display**: Display tables, charts, and interactive visualizations.
+- **Interactivity**: Create basic interactive applications with user input widgets.
+
+---
+
+## 11. Virtual Environments in Python
 - **What Are Virtual Environments?**: Understand the purpose of isolated workspaces.
 - **Benefits**:
   - Dependency isolation
@@ -92,23 +109,8 @@ Welcome to the **Python Refresher Course** repository! 🎉 This course is desig
 
 ---
 
-## 10. Data Analysis with Python Libraries
-- **NumPy**: Work with arrays, array operations, and statistical functions.
-- **Pandas**: Manipulate data using `DataFrame` and `Series`.
-- **Matplotlib**: Create line plots, bar charts, and customize visualizations.
-- **Seaborn**: Generate advanced visualizations like scatter plots and heatmaps.
-
----
-
-## 11. Streamlit
-- **Overview**: Learn to build web apps for data visualization.
-- **Basic Components**: Work with widgets like sliders, checkboxes, and buttons.
-- **Data Display**: Display tables, charts, and interactive visualizations.
-- **Interactivity**: Create basic interactive applications with user input widgets.
-
----
-
 ### Prerequisites  
+
 Ensure you have the following installed on your computer:  
 - [Git](https://git-scm.com/downloads)  
 🎥 Watch the tutorial here:
@@ -126,5 +128,5 @@ Ensure you have the following installed on your computer:
    cd python-refresher-course
    ```
 
-🎥 Watch the tutorial here:
+🎥 Watch Git and GitHub tutorial here:
  [Git & GitHub Tutorial for Beginners](https://www.youtube.com/watch?v=STgy2yqdvnU)  
